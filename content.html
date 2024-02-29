@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Designing into AI</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1e1d1d;
+            background-image: url('bg2.jpeg');
+            backdrop-filter: blur(15px);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        /* ----------------- */
+        .image-container {
+            width: 560px;
+            border-radius: 10px;
+            overflow: scroll;
+            box-shadow: 0.6px 0.5px 0.7px 0.7px rgba(7, 44, 71, 0.297);
+            opacity: 80%;
+            transition: 1s;
+            transition: transform .2s; /* Animation */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 365px;
+        }
+        .image-container:hover {
+            opacity: 100%;
+            ms-transform: scale(2.5); /* IE 9 */
+            -webkit-transform: scale(2.5); /* Safari 3-8 */
+            transform: scale(1.5);
+            z-index: 10;
+        } 
+        img {
+            height: 365px;
+            display:block;
+            cursor: pointer;
+        } 
+        .video-container {
+            width: 700px;
+            height: 390px;
+            overflow: scroll;
+            border-radius: 10px;
+            /* box-shadow:0px 0px 0px rgba(4, 62, 85, 0.478); */
+            padding-bottom: 0px;
+        }
+        video {
+            width: 100%;
+            height: auto;
+        }
+       
+        .backbutton-container {
+            margin-top: 20px;
+            opacity: 95%;
+
+        }
+        .btn {
+            background-color: #272728;
+            color: #fff;
+            padding: 20px 20px;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 16px;
+            transition: 1s;
+        }
+        .btn:hover {
+            background-color: #2f2f30;
+            opacity: 100%;
+        }
+        p {
+            background: rgb(217, 205, 218); /*sets the background of this element (here a solid colour)*/
+            transition: all 0.6s; /*sets a transition (for hover effect)*/
+            padding-left: 30px; /*sets 'padding'*/
+            padding-right: 30px; /*sets 'padding'*/
+            padding-top: 30px; /*sets 'padding'*/
+            padding-bottom: 30px; /*sets 'padding'*/
+            line-height: 30px; /*for this, it sets vertical alignment*/
+            opacity: 80%;
+            font-family:cursive;
+            /* font-style: italic; */
+            font-weight: 200;
+            font-size: large;
+            border-radius: 30px;
+        }
+        p:hover {
+            background: rgb(255, 255, 237); /*sets background colour*/
+        }
+        @font-face { font-family: Aesthetic; src: url('AestheticRegular-8M5dM.TTF'); } 
+      a {
+         font-family: Aesthetic;
+         background-color: burlywood;
+         opacity: 76%;
+         display: flex;
+         text-align: center;
+         transition: all 0.9s;
+         border-radius: 20px;
+      }
+      a:hover {
+            background: beige; /*sets background colour*/
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <a style="padding-left: 40px;padding-right: 40px"><b><h2>JOIN THE REVOLUTION</h2></b>
+    </a>
+
+    <div style="padding-bottom: 50px;"></div>
+
+    <div class="image-container">
+        <!-- Replace the 'src' attribute value with your actual AI-generated image URL -->
+        <img src="midnightbluedress.jpeg" alt="AI-Generated Fashion Content">
+        <img src="lilacgreendress.jpeg" alt="AI-Generated Fashion Content">
+    </div>
+
+    <div>&nbsp;</div><div>&nbsp;</div> <div>&nbsp;</div> <div>&nbsp;</div> 
+    
+    <div class="video-container">
+        <video controls autoplay muted loop>
+            <source src="v3.mp4" type="video/mp4">
+        </video>
+
+    </div>
+
+    <div style="padding-left: 40px;padding-right: 40px;"><p>
+
+        As we stand on the brink of a new era in fashion, we extend an invitation to you to join us in this revolution. <br><br>Whether you're a designer, artist, tech enthusiast, or fashion lover, there's a place for you in this journey. <br><br>Together, we can explore the vast potential of AI in fashion and pave the way for a world where technology and creativity unite in harmony.
+        
+        Welcome to "VOGUEVISIONS" - where the future of fashion begins.</p></div>
+
+    <div class="backbutton-container">
+        <!-- Link back to the landing page or any other section of your portfolio -->
+        <a href="index.html" class="btn">Back to Main Page</a>
+    </div>
+   
+    <div>&nbsp;</div> <div>&nbsp;</div> <div>&nbsp;</div> 
+    <div>&nbsp;</div> <div>&nbsp;</div> <div>&nbsp;</div>
+</body>
+</html>
